@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import SearchBar from './SearchBar';
 import SearchResults from './SearchResults';
 
-const API_KEY = "c27989434465db1206d292c9a2d14ba5";
+const API_KEY = "YOUR_API_KEY";
 const API_ENDPOINT = "https://api.themoviedb.org/";
 
 class MovieModal extends Component {
