@@ -1,0 +1,135 @@
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.add-button{
+  border-radius: 4px;
+  font-size: 20px;
+  background: #e74c3c;
+  border:none;
+  padding: 10px 10px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.cls-btn{
+  border-radius: 4px;
+  font-size: 14px;
+  background: #e74c3c;
+  border:none;
+  padding: 6px;
+  color: #FFF;
+  cursor: pointer;
+  bottom:0;
+}
+
+.searchbar{
+  width:94%;
+  padding:8px 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.movieresults{
+  margin-top: 16px; 
+  background-color: #fff; 
+  color:#7f8c8d
+}
+
+.movie{
+  margin: 10px;
+  float: left;
+  width: 485px;
+  box-sizing: border-box;
+  background-color: #f7fbfc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.left-box{
+  float: left;;
+  width: 185px;
+}
+.right-box{
+  float: left;;
+  width:290px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.right-box .info{
+  display: inline-block; 
+}
+
+.right-box .info .ratings{
+  float: left;
+  background: #ff7979;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 50%; 
+}
+
+.right-box .info .title{
+  float: left;
+  font-weight: bolder;
+  font-size: 18px;
+  padding: 5px;
+  color:#2c3e50;
+
+}
+
+.right-box .description{
+  margin: 8px; 
+  max-height: 150px;
+  overflow: hidden;
+}
+
+.movie .add-to-box-btn{
+  border: 1px solid #2980b9;
+  padding: 4px;
+  background:#3498db;
+  color:#fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  width: 290px;  
+  cursor: pointer;
+  top: 248.5px;
+  margin-left: -10px;  
+}
+
+.right-box .release-date{
+  font-size: 14px
+}
+
+.clear{
+  clear: both;
+}
